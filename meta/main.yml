@@ -1,0 +1,22 @@
+---
+dependencies:
+  - { role: virtualenv.daemonize }
+
+galaxy_info:
+  author: virtualenv
+  description: "MailHog for Linux"
+  company: ""
+  license: "license (BSD, MIT)"
+  min_ansible_version: 1.4
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+  categories:
+    - development
+    - web
+    - system
+    - mail
